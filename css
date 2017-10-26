@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 40px;
+}
+
+body {
+  background-color: brown;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+
+.background {
+  color: red;
+}
+nav {
+  font-size: 24;
+}
+nav {
+  font-size: 40px;
+}

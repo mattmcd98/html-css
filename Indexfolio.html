@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://use.fontawesome.com/727cd79097.js"></script>
+<title>Portfolio Matthew McDougall</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Hi, I'm Matthew!</h1>
+  <p>This site is for possible empolyers or anyone interested what work I've done, previous or current.</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home <i class="fa fa-user-circle" aria-hidden="true"></i></a>
+  <a href="#">Current Projects <i class="fa fa-pencil" aria-hidden="true"></i>
+</a>
+  <a href="#">Previous Projects <i class="fa fa-arrow-circle-o-left" aria-hidden="true"></i>
+</a>
+  <a href="#">Say Hi. <i class="fa fa-hand-spock-o" aria-hidden="true"></i></a>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Blog</h2>
+    <p></p>
+  </div>
+  <div class="column middle">
+    <h2>A bit About me</h2>
+    <p>I am currently studying Web Development at Dundee and Angus college whilst doing work experience with Waracle. I have just started specifically studing web less that 4 months ago and still learning the basics through college and different applications and styles at Waracle.</p>
+    <p></p>
+  </div>
+  <div class="column side">
+    <h2>Social</h2>
+    <ul>
+      <li>Twitter   <i class="fa fa-twitter" aria-hidden="true"></i></li>
+      <li>Facebook  <i class="fa fa-facebook-square" aria-hidden="true"></i></li>
+      <li>Instagram  <i class="fa fa-instagram" aria-hidden="true"></i></p></li>
+    </ul>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Footer</p>
+</div>
+  
+</body>
+</html>
+
